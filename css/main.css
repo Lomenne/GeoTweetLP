@@ -1,0 +1,109 @@
+.imageNav {
+	height: 250%;
+}
+
+.textNav {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+body {
+	font-family: sans-serif;
+	height: 100%;
+}
+
+#contain{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	margin-top:-20px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+img{
+	width: 100%;
+}
+
+.img{
+	max-height: 150px;	
+}
+
+ul{
+	list-style-type: none;
+}
+
+.price{
+	float: right;
+	margin-bottom: 0;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	height: 1000px;
+	width: 100%;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item-haut {
+  align-self: flex-start;
+}
+
+.Aligner-item-bas {
+  align-self: flex-end;
+}
+
+.input-group{
+	margin-bottom: 20px;
+}
+
+h4{
+	margin-bottom: 60px;
+}
+
+span{
+	margin-bottom: 10px;
+}
+
+.coordonne{
+	text-align: right;
+}
+
+.form{
+	border-left: 1px solid grey;
+}
+
+#map{
+	height: 800px;
+	margin-bottom: 20px;
+}
+
+.col-xs-6{
+	margin-bottom: 10px;
+}
+
+.title{
+	text-align: center;
+}
+
+#deroulante {
+	height: 800px;
+	overflow-y: auto;
+}
+
+.profile {
+	width: 50px;
+	height: 50px;
+}
+
